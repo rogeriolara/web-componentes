@@ -1,0 +1,33 @@
+/* Modelo de Caixa */
+
+
+.conteudo {
+	border: 1px solid red;
+
+	/* outras maneiras de usar:
+
+	padding: 20px 10px 8px 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px; */
+
+	padding: 20px;
+	margin: 20px;
+	width: 150px;  /* tamanho da caixa */
+}
+
+/*margin-collapse é quando temos dois elementos de caixa
+com margens, o elemento que tiver a margem maior, é que será aplciada */
+
+#noticia {
+	background: #f9f9f9;
+	border: 1px solid gray;
+	padding: 10px;
+	width: 980px;
+
+}
+
+h2 {
+	margin: 0px;
+}

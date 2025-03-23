@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inline-Block e Posicionamentos</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.borda {
+			border: 1px solid red;
+			display: inline-block;
+		}
+         
+        body {
+        	background: #007fc7;
+        } 
+		#container {
+			background: #FFF;
+			width: 800px;
+			margin: 10px auto; /* centralizando o container */
+			padding: 10px;
+			position: relative;
+		}
+
+		h1 {
+			position: static;
+		}
+
+		p {
+			width: 300px;
+			position: 
+		}
+
+		.relative {
+			border: 1px solid red;
+			position: relative;
+			top: 20px;
+			left: 70px;
+		}
+
+		.absolute {
+			position: absolute;
+			background: #f2f2f2;
+			border: 1px solid red;
+			top: 80px;
+			right: 80px;
+
+		}
+
+		.fixed { /* elemento fica fixo, não sai do lugar, nem mesmo quando rola a pg para baixo */
+            position: fixed;
+			background: #f2f2f2;
+			border: 1px solid red;
+			bottom: 50px;
+			right: 30px;
+		}
+	</style>
+</head>
+<body>
+
+<span class="borda">inline 1 jrojwbjivbvbdbwondjbcjjbejicbjiwb ijbciwbeivbw viewbfciuwebcuidbvuibrie vbbvcuiebvuiberuicjbwjeacbjlawdblivjbawuibuiaonwvuibvuwed weoifhweiofiowebicbDC EIDUECHUIWEHACUIWEBUVBWED  IUBUIVBUEVBI</span>
+<span class="borda">inline 2</span>
+<!--
+<h1 class="borda">Bloco 1</h1>
+<h1 class="borda">Bloco 2</h1>
+-->
+
+<div id="container">
+	<h1>Posicionamentos</h1>
+
+	<p>
+		P1 - Meu nome é Rogério Toledo Lara Júnior, tenho 25 anos, natural de Laranjal Paulista-SP
+	</p>
+
+	<p class="relative">
+		P2 - É um fato há muito estabelecido que um leitor se distrairá com o conteúdo legível de uma página ao olhar para seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. 
+	</p>
+
+	<p class="absolute">
+		P3 - Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como seu modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e coisas do gênero).
+	</p>
+
+	<p class="fixed">
+		P4 - Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como seu modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e coisas do gênero).
+	</p>
+
+	<p>
+		P5 - Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como seu modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e coisas do gênero).
+	</p>
+</div>
+</body>
+</html>
